@@ -1,5 +1,4 @@
-# sistema-de-reconocimiento-facial
-
+manual de instalacion
 
 siga detenidamente los siguientes pasos
 
@@ -29,3 +28,7 @@ pip3 install opencv-contrib-python
 *pip3 install face-recognition
 ----------------------------------
 playsound (solo le das alt + enter y automaticamente pycharm te instala tu libreria)
+
+
+
+

@@ -23,7 +23,7 @@ mycourse =mydb.cursor()
 
 root = Tk()
 
-
+#holaaaaaaajjhjhj
 def Images_show():
     result = filedialog.askopenfile(initialdir=os.getcwd() + "/dataset_images/", title="Select file",
                                     filetypes=(("text", ".jpg"), ("all file", "*.*")))

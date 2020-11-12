@@ -1,4 +1,5 @@
 def start():
+    # funcion guardar asistencia
     def save_att(student_id, name_student):
         d = datetime.date.today()
         now = datetime.datetime.utcnow()
@@ -137,6 +138,7 @@ def start():
     else:
         timeplay = 1
         capture_duration = 2
+        # while
     while (timeplay < capture_duration):
         frame = cam.read()[1]
 

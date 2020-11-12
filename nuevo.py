@@ -13,7 +13,7 @@ def Open_new():
         os.mkdir(cwd + "/dataset_images")
     except:
         print()
-
+# funcion
     def image_taker(dir_name, student_id):
         cam = cv2.VideoCapture(0)
         counter = 0
@@ -56,7 +56,7 @@ def Open_new():
         student_id = max(labels) + 1
     except FileNotFoundError:
         student_id = 0
-
+# while
     while (choice == 'yes'):
 
         print(student_id)
@@ -105,6 +105,7 @@ def Open_new():
 
     dataset_dir_name = os.getcwd() + "/dataset_images"
     folder_names = os.listdir(dataset_dir_name)
+# for
     for i in folder_names:
         dir_name = dataset_dir_name + "/" + i
         face_names = os.listdir(dir_name)
